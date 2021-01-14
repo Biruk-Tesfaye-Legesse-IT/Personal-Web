@@ -1,0 +1,37 @@
+    @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,800&display=swap');
+    .scrollingTwitter {
+        height: 500px;
+        overflow-y: scroll;
+    }
+    
+    body {
+        background-color: #eee;
+    }
+    
+    .bodyColor {
+        background-color: white;
+    }
+    
+    .navColor {
+        background-color: #2d2654;
+    }
+    
+    .toggler {
+        /*overwriting*/
+        background-color: white;
+        font-size: 25px;
+    }
+    
+    .logomine {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 1000;
+    }
+    
+    .nav-buttons {
+        color: #bbb !important;
+        font-family: DroidSans;
+    }
+    
+    .nav-buttons:hover {
+        color: white !important;
+    }
