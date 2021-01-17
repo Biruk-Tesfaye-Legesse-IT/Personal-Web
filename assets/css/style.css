@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,800&display=swap');
+@import url("https://use.typekit.net/vnp7egx.css");
 .scrollingTwitter {
-    height: 400px;
-    width: 267px;
+    height: 25em;
+    width: 16.6875em;
     overflow-y: scroll;
 }
 
@@ -20,7 +21,7 @@ body {
 .toggler {
     /*overwriting*/
     background-color: white;
-    font-size: 25px;
+    font-size: 1.56.25%;
 }
 
 .logomine {
@@ -30,7 +31,8 @@ body {
 
 .nav-buttons {
     color: #bbb !important;
-    font-family: DroidSans !important;
+    font-family: droid-sans !important;
+    font-size: 87.50%;
 }
 
 .nav-buttons:hover {
@@ -43,7 +45,7 @@ body {
 
 .borderstyle {
     border-color: #ccc !important;
-    border-left: 2px dotted;
+    border-left: 0.125em dotted;
 }
 
 @media screen and (max-width: 767px) {
@@ -53,7 +55,7 @@ body {
 }
 
 .hrstyle {
-    border-top: 1px dotted #ccc;
+    border-top: 0.0625em dotted #ccc;
     ;
 }
 
@@ -64,8 +66,8 @@ body {
 
 #footer {
     color: #a4a4a4;
-    font-size: 12px;
-    font-family: DroidSerif;
+    font-size: 75.00%;
+    font-family: droid-serif;
 }
 
 .namelink {
@@ -79,12 +81,12 @@ body {
 
 .socialborder {
     border-color: #ccc !important;
-    border-bottom: 2px dotted;
+    border-bottom: 0.125em dotted;
 }
 
 .bodyborder {
     border-color: #ccc !important;
-    border-top: 2px dotted;
+    border-top: 0.125em dotted;
 }
 
 @media screen and (max-width: 767px) {
@@ -101,16 +103,16 @@ body {
 } */
 
 .myphoto {
-    height: 180px;
-    width: 180px;
+    height: 11.25em;
+    width: 11.25em;
 }
 
 .widgetext {
     color: #8c8c8c;
-    font-size: 12px;
+    font-size: 75.00%;
     font-weight: normal;
     text-transform: uppercase;
-    font-family: DroidSerif;
+    font-family: droid-serif;
 }
 
 .blogpic {
@@ -120,9 +122,9 @@ body {
 
 .conread {
     color: #2d2654;
-    font-size: 14px;
+    font-size: 87.50%;
     text-decoration: none !important;
-    font-family: DroidSans;
+    font-family: droid-sans;
 }
 
 .conread:hover {
@@ -132,7 +134,7 @@ body {
 .blogtitle {
     color: #2d2654;
     text-decoration: none !important;
-    font-family: DroidSans;
+    font-family: droid-serif;
     font-size: larger;
 }
 
@@ -141,7 +143,7 @@ body {
 }
 
 .bydesc {
-    font-family: DroidSerif;
+    font-family: droid-serif;
     font-size: 87.50%;
 }
 
@@ -151,11 +153,30 @@ body {
 
 .comind {
     color: #2d2654;
-    font-family: DroidSerif;
+    font-family: droid-serif;
     font-size: 87.50%;
     text-decoration: none !important;
 }
 
 .comind:hover {
     color: #FCC87A;
+}
+
+.titles {
+    font-size: 2.25em;
+    font-family: droid-serif;
+    color: #333333;
+}
+
+.bodytext {
+    font-family: 'Arial', 'Helvetica', sans-serif !important;
+    font-size: 87.50% !important;
+    color: #574d4d !important;
+    ;
+}
+
+.foot {
+    color: #a4a4a4;
+    font-size: 75.00%;
+    font-family: droid-serif;
 }
