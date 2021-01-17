@@ -1,37 +1,161 @@
-    @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,800&display=swap');
-    .scrollingTwitter {
-        height: 500px;
-        overflow-y: scroll;
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,800&display=swap');
+.scrollingTwitter {
+    height: 400px;
+    width: 267px;
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #eee;
+}
+
+.bodyColor {
+    background-color: white;
+}
+
+.navColor {
+    background-color: #2d2654;
+}
+
+.toggler {
+    /*overwriting*/
+    background-color: white;
+    font-size: 25px;
+}
+
+.logomine {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+}
+
+.nav-buttons {
+    color: #bbb !important;
+    font-family: DroidSans !important;
+}
+
+.nav-buttons:hover {
+    color: white !important;
+}
+
+.bordercolor {
+    border-color: #ccc !important;
+}
+
+.borderstyle {
+    border-color: #ccc !important;
+    border-left: 2px dotted;
+}
+
+@media screen and (max-width: 767px) {
+    .borderstyle {
+        border: white;
     }
-    
-    body {
-        background-color: #eee;
+}
+
+.hrstyle {
+    border-top: 1px dotted #ccc;
+    ;
+}
+
+.imgstyle {
+    height: 100%;
+    width: 100%;
+}
+
+#footer {
+    color: #a4a4a4;
+    font-size: 12px;
+    font-family: DroidSerif;
+}
+
+.namelink {
+    text-decoration: none !important;
+    color: #360053;
+}
+
+.namelink:hover {
+    color: #360053;
+}
+
+.socialborder {
+    border-color: #ccc !important;
+    border-bottom: 2px dotted;
+}
+
+.bodyborder {
+    border-color: #ccc !important;
+    border-top: 2px dotted;
+}
+
+@media screen and (max-width: 767px) {
+    .bodyborder {
+        border: white;
     }
-    
-    .bodyColor {
-        background-color: white;
+}
+
+
+/* @media screen and (max-width: 767px) {
+    .myphoto {
+        margin-top: 6;
     }
-    
-    .navColor {
-        background-color: #2d2654;
-    }
-    
-    .toggler {
-        /*overwriting*/
-        background-color: white;
-        font-size: 25px;
-    }
-    
-    .logomine {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 1000;
-    }
-    
-    .nav-buttons {
-        color: #bbb !important;
-        font-family: DroidSans;
-    }
-    
-    .nav-buttons:hover {
-        color: white !important;
-    }
+} */
+
+.myphoto {
+    height: 180px;
+    width: 180px;
+}
+
+.widgetext {
+    color: #8c8c8c;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: DroidSerif;
+}
+
+.blogpic {
+    height: 100%;
+    width: 95%;
+}
+
+.conread {
+    color: #2d2654;
+    font-size: 14px;
+    text-decoration: none !important;
+    font-family: DroidSans;
+}
+
+.conread:hover {
+    color: #2d2654;
+}
+
+.blogtitle {
+    color: #2d2654;
+    text-decoration: none !important;
+    font-family: DroidSans;
+    font-size: larger;
+}
+
+.blogtitle:hover {
+    color: #2D2754;
+}
+
+.bydesc {
+    font-family: DroidSerif;
+    font-size: 87.50%;
+}
+
+.bydesc:hover {
+    color: #8c8c8c;
+}
+
+.comind {
+    color: #2d2654;
+    font-family: DroidSerif;
+    font-size: 87.50%;
+    text-decoration: none !important;
+}
+
+.comind:hover {
+    color: #FCC87A;
+}
