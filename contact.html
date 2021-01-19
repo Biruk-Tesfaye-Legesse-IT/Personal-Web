@@ -1,83 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Contact Me</title>
+    <link rel="icon" href="./assets/images/avatar.ico">
+    <title>Biruk Tesfaye Legesse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body bgcolor="#eee">
-    
-    <table  bgcolor="white" align="center">
-        
-        <tr><td width="970px" align="center"><h1>Biruk Tesfaye Legesse</h1></td></tr>
-            <tr bgcolor="#2d2654">
-                <td align="center" height="40px"> 
-                <a href="index.html" target="_blank">About Me | </a>
-                <a href="blog.html">Blog | </a>
-                <a href="news.html">News</a>
-                <a href="movies.html">Movies | </a>
-                <a href="books.html">Books | </a>
-                <a href="contact.html">Contact Me</a>
-                </td></tr>  
-        </table>
-        <table bgcolor="white" align="center" >
-            <tr>
-            <td width="655px" valign="top">
-                <h2>Contact Me</h2>
-                <hr>
-                You can find me by using the contact from below. <br><br>
-                Biruk Tesfaye Legesse <br>
-                +251924913413 <br>
-                P.O. Box 1759 <br>
-                Addis Ababa, Ethiopia <br>
-                <h3>Contact Form</h3>
-                <hr>
-                <table cellspacing="20">
-                    <tr>
-                    <form method="POST" action="mailto:it.biruk.tesfaye2913@gmail.com@gmail.com" enctype="utf-8">
-                    <td><label for=Fname>First Name: </label> </td>
-                    <td><input type="text" id="Fname" name="fName" minlength="2" size="20"
-                    pattern="[A-Za-z]+"  required title="Only letters with no space"></td>
-                    </tr>
 
-                    <tr>
-                        <td><label for=sName>Second Name: </label></td>
-                        <td><input type="text" id="sName" name="sName" minlength="2" size="20"
-                            pattern="[A-Za-z]+"  required title="Only letters with no space"></td>
-                        </tr>
+<body>
+    <div class="container">
 
-                    <tr>
-                        <td><label for=email>Email: </label></td>
-                        <td><input type="email" id="email" name="email"></td>
-                        </tr>
+        <div class="container col-lg-11 row">
 
-                        <tr>
-                            <td><label for=pass>Password: </label></td>
-                            <td><input type=<input type="password" id="pass" name="pass"
-                                
-                                pattern="[A-Za-z0-9]+" title="Only letters and numbers">
-                            </td>
+            <div class="bodyColor d-flex justify-content-center pl-sm-0 pr-sm-0 pl-md-5 pl-lg-5 pb-5 pt-5 pr-md-5">
+                <h1 class="logomine">Biruk Tesfaye Legesse</h1>
+
+            </div>
+
+            <!-- ========================== Navigation Bar ================================================-->
+
+
+
+
+            <nav class="navbar navbar-expand-md navbar-light navColor navbarFont">
+
+                <button class="navbar-toggler toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                <div class="collapse navbar-collapse d-md-flex justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav align-content-center">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item p-2 ">
+                                <a class="nav-link nav-buttons" href="index.html" target="_blank">About Me</a>
+                            </li>
+                            <li class="nav-item p-2 ">
+                                <a class="nav-link nav-buttons" href="blog.html">Blog  </a>
+                            </li>
+
+                            <li class="nav-item p-2">
+                                <a class="nav-link nav-buttons" href="news.html">News</a>
+                            </li>
+                            <li class="nav-item p-2 ">
+                                <a class="nav-link nav-buttons" href="movies.html">Movies</a>
+                            </li>
+                            <li class="nav-item p-2 ">
+                                <a class="nav-link nav-buttons" href="books.html">Books</a>
+                            </li>
+                            <li class="nav-item p-2 ">
+                                <a class="nav-link nav-buttons" href="contact.html">Contact Me</a>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+                </div>
+            </nav>
+
+            <!-- ============================== Page Content ================================================= -->
+
+
+            <table bgcolor="white" align="center">
+                <tr>
+                    <td width="655px" valign="top">
+                        <h2>Contact Me</h2>
+                        <hr> You can find me by using the contact from below. <br><br> Biruk Tesfaye Legesse <br> +251924913413 <br> P.O. Box 1759 <br> Addis Ababa, Ethiopia <br>
+                        <h3>Contact Form</h3>
+                        <hr>
+                        <table cellspacing="20">
+                            <tr>
+                                <form method="POST" action="mailto:it.biruk.tesfaye2913@gmail.com@gmail.com" enctype="utf-8">
+                                    <td><label for=Fname>First Name: </label> </td>
+                                    <td><input type="text" id="Fname" name="fName" minlength="2" size="20" pattern="[A-Za-z]+" required title="Only letters with no space"></td>
                             </tr>
-        
+
+                            <tr>
+                                <td><label for=sName>Second Name: </label></td>
+                                <td><input type="text" id="sName" name="sName" minlength="2" size="20" pattern="[A-Za-z]+" required title="Only letters with no space"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for=email>Email: </label></td>
+                                <td><input type="email" id="email" name="email"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for=pass>Password: </label></td>
+                                <td><input type=<input type="password" id="pass" name="pass" pattern="[A-Za-z0-9]+" title="Only letters and numbers">
+                                </td>
+                            </tr>
+
                             <tr>
                                 <td><label for=tel>Phone Number: </label></td>
                                 <td><input type="tel" id="tel" name="tel" pattern="[0-9]+" title="Only numbers">
-                                    
-                                    
+
+
                                 </td>
-                                </tr>
-        
-                                <tr>
-                                    <td><label for=url>Website link: </label></td>
-                                    <td><input type="url" id="url" name="url">
-                                    </td>
-                                </tr>
-        
-                                
-                
-                        <tr> <td> Continent:</td>
-                            <td> <select name="country" id="">
+                            </tr>
+
+                            <tr>
+                                <td><label for=url>Website link: </label></td>
+                                <td><input type="url" id="url" name="url">
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td> Continent:</td>
+                                <td> <select name="country" id="">
                             <option value="af">Africa</option>
                             <option value="am">America</option>
                             <option value="eu">Europe</option>
@@ -85,53 +123,70 @@
                             <option value="eu">North America</option>
                             <option value="eu">South America</option>
                             <option value="eu">Australia</option>
-                        </select></td></tr>
-
-                        <tr>
-                            <td><label for="date">Date:</label></td>
-                            <td><input type="date" id="date" name="date"></td>
+                        </select></td>
                             </tr>
-    
-                        
-  
-                
-                        
-                        <tr><td> Your message: </td>
-                       <td><textarea name="comment" id="" cols="40" rows="5"></textarea></td></tr>
-                        <tr><td></td><td align="left"><input type="submit" value="Send"></td></tr>
-                   
-                    </form>
-                </table>
-                
 
-            </td>
-
-            <td width="13px"></td>
-            
+                            <tr>
+                                <td><label for="date">Date:</label></td>
+                                <td><input type="date" id="date" name="date"></td>
+                            </tr>
 
 
-            <td align="center" width="290px" valign="top">
-                CONNECT WITH ME
-            <p><a class="social" href="https://www.facebook.com/"><img src="./assets/images/Facebook.jpg" width="50" height="50"> 
-            <a class="social" href="https://twitter.com/login?lang=en"><img src="./assets/images/Twitter.png" width="50" height="50"></a>
-            <a class="social" href="https://www.instagram.com/"><img src="./assets/images/Instagram.jpg" width="50" height="50"></a> </p>
-            <hr>
-            FOLLOW ME ON TWITTER <br><br>
-            <img height="300px" width="200px" src="./assets/images/tweet.png" alt="">
-            <hr>
-            </td>
 
 
-            </tr>
-           
-        </table>
-        <table>
-            <tr>
-                <td align="center" valign="center" width="970px" height="100px">Copyright © 2020 Biruk Tesfaye Legesse. All rights Reserved.</td> 
-            </tr> 
-        </table>
-   
 
+                            <tr>
+                                <td> Your message: </td>
+                                <td><textarea name="comment" id="" cols="40" rows="5"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td align="left"><input type="submit" value="Send"></td>
+                            </tr>
+
+                            </form>
+                        </table>
+
+
+                    </td>
+
+                    <td width="13px"></td>
+
+
+
+                    <td align="center" width="290px" valign="top">
+                        CONNECT WITH ME
+                        <p>
+                            <a class="social" href="https://www.facebook.com/"><img src="./assets/images/Facebook.jpg" width="50" height="50">
+                                <a class="social" href="https://twitter.com/login?lang=en"><img src="./assets/images/Twitter.png" width="50" height="50"></a>
+                                <a class="social" href="https://www.instagram.com/"><img src="./assets/images/Instagram.jpg" width="50" height="50"></a>
+                        </p>
+                        <hr> FOLLOW ME ON TWITTER <br><br>
+                        <img height="300px" width="200px" src="./assets/images/tweet.png" alt="">
+                        <hr>
+                    </td>
+
+
+                </tr>
+
+            </table>
+
+
+            <!-- ========================================= Footer =========================================================== -->
+
+
+            <div class="row mt-5">
+                <p class="text-secondary">Copyright &copy; 2021 <b> Biruk Tesfaye Legesse</b>. All rights Reserved.</p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
 
 </body>
+
 </html>
