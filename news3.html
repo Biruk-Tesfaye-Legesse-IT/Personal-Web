@@ -106,49 +106,41 @@
                                 
                                 </div>
 
-                                <div class=" ">
-
-                                    <table bgcolor="white " align="center ">
-                                        <tr>
-                                            <td width="655px " valign="top ">
-                                                <h2>Leave a comment</h2>
-                            
-                                                <table cellspacing="20 ">
-                                                    <tr>
-                                                        <form id="bloment1 " method="POST " action="mailto:it.biruk,tesfaye2913@gmail.com " enctype="utf-8 ">
-                                                            <td><label for=name>Name: </label> </td>
-                                                            <td><input type="text " id="name " name="Name " minlength="2 " size="20 " pattern="[A-Za-z]+ " required title="Only letters "></td>
-                                                    </tr>
-                            
-                                                    <tr>
-                                                        <td><label for=email>Email: </label></td>
-                                                        <td><input type="email " id="email " name="email "></td>
-                                                    </tr>
-                            
-                                                    <tr>
-                                                        <td><label for=url>Website URL: </label></td>
-                                                        <td><input type="url " id="url " name="url ">
-                                                        </td>
-                                                    </tr>
-                            
-                                                    <tr>
-                                                        <td> Your comment: </td>
-                                                        <td><textarea name="comment " id=" " cols="40 " rows="5 "></textarea></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td></td>
-                                                        <td align="left "><input type="submit " value="Submit your comment "></td>
-                                                    </tr>
-                            
-                                                    </form>
-                                                </table>
-                                        </tr>
-                                    </table>
-                            
-                                    </td>
-                            
-                                    <td width="13px "></td> 
-
+                                <div class="pt-5 border-bottom ">
+                                    <h2 class="commentitle ">Leave a comment</h2>
+                                
+                                    <form action="mailto:it.biruk.tesfaye2913@gmail.com ">
+                                
+                                        <div class="mb-3 ">
+                                            <label for="name " class="form-label formText text-secondary commentext ">Your Name :</label>
+                                            <input type="text " class=" form-control " id="nameinput " pattern="[a-zA-Z]+[a-zA-Z]+ " size=" 20 " required title="Only letters ">
+                                
+                                        </div>
+                                
+                                        <div class="mb-3 ">
+                                            <label for="email " class="form-label formText text-secondary commentext ">Email address :</label>
+                                            <input type="email " class="form-control " id="emailinput required ">
+                                
+                                        </div>
+                                
+                                        <div class="mb-3 ">
+                                            <label for="url " class="form-label formText text-secondary commentext ">Website URL: </label>
+                                            <input type="url " id="url " name="url " class="form-control ">
+                                
+                                        </div>
+                                
+                                
+                                        <div class="mb-3 ">
+                                            <label for="comment " class="form-label formText text-secondary commentext ">Your message: </label>
+                                            <textarea id=" " name="comment " class="form-control " rows="5 "> </textarea>
+                                
+                                
+                                        </div>
+                                
+                                
+                                
+                                        <div class="alignment "><button type="submit " class="btn text-dark bg-white subut border-primary mb-3 ">Submit your reply</button></div>
+                                    </form>
                                 </div>
                                 
                             </div>
